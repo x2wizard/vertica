@@ -6,7 +6,7 @@ export async function GET(context: APIContext) {
 	const posts = await getPosts();
 	return rss({
 		title: 'GTG Vertica 블로그',
-		description: '버티카(OpenText Analytics Database)에 대한 다양한 정보 공유',
+		description: '버티카(Vertica Analytics Database)에 대한 다양한 정보 공유',
 		site: new URL(import.meta.env.BASE_URL, context.site).href,
 		items: posts.map((post) => ({
 			title: post.data.title,

@@ -21,7 +21,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'GTG Vertica 블로그',
-			description: '버티카(OpenText Analytics Database)에 대한 다양한 정보 공유',
+			description: '버티카(Vertica Analytics Database)에 대한 다양한 정보 공유',
 			defaultLocale: 'root',
 			locales: { root: { label: '한국어', lang: 'ko' } },
 			logo: {

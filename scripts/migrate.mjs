@@ -35,7 +35,7 @@ const EXCLUDE_IMAGES = new Set(['vertica_etc/Vertica_IDC_MarketScape_2025_00.gif
 // 모든 글의 작성일 (새 사이트 공개 기준일). 원래 글의 date·last_modified_at 은 쓰지 않는다.
 const PUBLISH_DATE = '2026-11-26';
 // 글 본문·태그에서 바꿔 쓸 표현
-const TEXT_REPLACEMENTS = [['OpenText Analytics Database(Vertica)', 'Vertica Analytics Database(Vertica)']];
+const TEXT_REPLACEMENTS = [['OpenText Analytics Database', 'Vertica Analytics Database']];
 const applyReplacements = (text) => TEXT_REPLACEMENTS.reduce((t, [from, to]) => t.split(from).join(to), text);
 
 /** 파일명(날짜 제외) → 새 slug */

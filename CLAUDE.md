@@ -23,6 +23,7 @@
   - `src/pages/tags/` 태그 페이지, `src/pages/feed.xml.ts` RSS
   - `src/plugins/rehype-external-links.mjs` 외부 링크 새 탭
 - `url-mapping.tsv`: 기존 URL → 새 URL 대응표
+- 검색·AI 노출: `src/lib/seo.ts` (Google/네이버 소유 확인 코드), `src/routeData.ts` (JSON-LD·article 메타), `src/pages/llms.txt.ts`·`llms-full.txt.ts` (AI용 목록·전체 본문)
 
 ## 이전 시 결정 사항
 - 모든 글의 작성일은 새 사이트 공개 기준일 2026-11-26 (migrate.mjs `PUBLISH_DATE`). 원래 글의 작성일·수정일은 쓰지 않는다.

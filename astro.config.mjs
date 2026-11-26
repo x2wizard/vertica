@@ -31,6 +31,8 @@ export default defineConfig({
 				replacesTitle: false,
 			},
 			favicon: '/favicon.svg',
+			// 검색엔진용 메타 태그·구조화 데이터 (src/lib/seo.ts 에서 설정)
+			routeMiddleware: './src/routeData.ts',
 			customCss: [
 				'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css',
 				'./src/styles/custom.css',

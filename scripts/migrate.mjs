@@ -27,8 +27,13 @@ const CATEGORIES = ['vertica_architecture', 'vertica_use', 'vertica_etc'];
 
 // 백업 사본으로 판단해 공개하지 않을 글
 const DRAFTS = new Set(['vertica_architecture_1040.20241119']);
-// _posts 밖에 잘못 놓여 있던 정식 글
-const EXTRA_POSTS = ['vertica_etc/img/2026-01-08-Vertica_IDC_MarketScape_2025.md'];
+// _posts 밖에 놓여 있던 글을 포함하려면 여기에 경로를 넣는다.
+// (vertica_etc/img/2026-01-08-Vertica_IDC_MarketScape_2025.md 는 요청에 따라 제외)
+const EXTRA_POSTS = [];
+// 옮기지 않을 이미지 (제외한 IDC 글에서만 쓰던 것)
+const EXCLUDE_IMAGES = new Set(['vertica_etc/Vertica_IDC_MarketScape_2025_00.gif']);
+// 모든 글의 작성일 (새 사이트 공개 기준일). 원래 글의 date·last_modified_at 은 쓰지 않는다.
+const PUBLISH_DATE = '2026-11-26';
 
 /** 파일명(날짜 제외) → 새 slug */
 const toSlug = (name) => name.toLowerCase();
@@ -74,7 +79,7 @@ let imageCount = 0;
 for (const cat of CATEGORIES) {
 	const dir = path.join(OLD, cat, 'img');
 	for (const file of fs.readdirSync(dir)) {
-		if (file.endsWith('.md')) continue;
+		if (file.endsWith('.md') || EXCLUDE_IMAGES.has(`${cat}/${file}`)) continue;
 		const isGif = /\.gif$/i.test(file);
 		const destDir = isGif ? path.join(PUBLIC_IMG, cat) : path.join(ASSETS, cat);
 		fs.mkdirSync(destDir, { recursive: true });
@@ -183,7 +188,6 @@ function convertBody(p, body) {
 	return body.replace(/^\s+/, '').replace(/\s+$/, '') + '\n';
 }
 
-const fmDate = (v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v ? String(v).slice(0, 10) : undefined);
 
 // ---------------------------------------------------------------- 글 변환
 const mapping = [['old_url', 'new_url', 'title', 'status']];
@@ -197,8 +201,7 @@ for (const p of posts) {
 	const out = {
 		title: String(fm.title).trim(),
 		...(fm.excerpt ? { description: String(fm.excerpt).trim() } : {}),
-		date: fmDate(fm.date) || p.fileDate,
-		...(fm.last_modified_at ? { lastUpdated: fmDate(fm.last_modified_at) } : {}),
+		date: PUBLISH_DATE,
 		tags: (fm.tags || []).map((t) => String(t).trim()).filter(Boolean),
 		...(draft ? { draft: true } : {}),
 	};

@@ -1,7 +1,7 @@
 ---
 title: 테이블 접근 권한
 description: 버티카의 테이블 접근 권한 및 권한 상속에 대한 설명.
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

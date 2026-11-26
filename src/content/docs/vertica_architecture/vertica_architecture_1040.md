@@ -1,7 +1,7 @@
 ---
 title: 데이터 적재
 description: Vertica 데이터 적재
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

@@ -1,8 +1,7 @@
 ---
 title: projection의 정렬과 분산 저장
 description: projection의 order by 와 segmentation spec 지정으로 projection 생성에 대한 설명
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - projection
   - 프로젝션

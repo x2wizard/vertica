@@ -1,8 +1,7 @@
 ---
 title: Vertica 접속하기
 description: Vertica community edition VM 환경에서 버티카 접속
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

@@ -1,8 +1,7 @@
 ---
 title: 신규 projection 추가 생성 절차
 description: 이미 사용중인 table에 projection을 추가 생성 및 삭제시 절차
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - projection
   - 프로젝션

@@ -1,7 +1,7 @@
 ---
 title: 데이터 삭제
 description: 버티카에서 데이터 삭제시 생성되는 delete vector에 대한 설명.
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

@@ -1,8 +1,7 @@
 ---
 title: 버티카 접속 - vsql
 description: vsql을 통한 버티카 접속 및 메타 명령어에 대한 설명
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - vertica vsql
   - 버티카 vsql

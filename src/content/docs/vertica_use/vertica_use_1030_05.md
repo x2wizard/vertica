@@ -1,8 +1,7 @@
 ---
 title: projection관련 주요 system table
 description: projection관련 주요 system table
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - projection
   - 프로젝션

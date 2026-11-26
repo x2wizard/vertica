@@ -1,8 +1,7 @@
 ---
 title: Bulk-Loading Data(DIRECT DML 처리)
 description: 대량 데이터 처리를 위한 DML의 DIRECT 사용에 대한 설명
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - DIRECT
   - ROS

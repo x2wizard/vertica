@@ -1,8 +1,7 @@
 ---
 title: Projection과 table 관계
 description: projection과 table 관계에 대한 설명
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - table
   - projection

@@ -1,8 +1,7 @@
 ---
 title: DBeaver 데이터베이스 관리 툴
 description: 무료 데이터베이스 관리 툴인 DBeaver에 대한 소개 및 설정
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - vertica DBMS tool
   - DBeaver

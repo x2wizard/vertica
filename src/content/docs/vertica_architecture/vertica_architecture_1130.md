@@ -1,7 +1,7 @@
 ---
 title: 버티카 Enterprise mode
 description: 버티카의 Enterprise mode에 대한 소개
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

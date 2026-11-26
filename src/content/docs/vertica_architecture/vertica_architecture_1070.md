@@ -1,7 +1,7 @@
 ---
 title: Partitioning Tables
 description: 테이블 partition과 segmentation에 대한 비교 및 partition장단점등을 소개한다.
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

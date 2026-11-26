@@ -1,8 +1,7 @@
 ---
 title: vsql을 이용한 데이터 Export
 description: vsql을 이용한 데이터를 export 방법
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - export
   - vsql

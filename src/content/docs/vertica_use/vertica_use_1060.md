@@ -1,8 +1,7 @@
 ---
 title: purge 작업
 description: 삭제된 데이터를 정리하기 위한 purge작업
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - purge
   - Tuple mover

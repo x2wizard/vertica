@@ -1,8 +1,7 @@
 ---
 title: 버티카 Database 통계 정보 수집
 description: 버티카 Database 통계 정보 수집 및 실행계획 확인
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - 통계정보
   - OpenText Analytics Database(Vertica)

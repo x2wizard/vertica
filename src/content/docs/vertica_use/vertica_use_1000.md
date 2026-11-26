@@ -1,8 +1,7 @@
 ---
 title: vertica.com 소개
 description: vertica.com 소개
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

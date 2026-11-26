@@ -1,7 +1,7 @@
 ---
 title: Vertica 기본 아키텍처
 description: Vertica 기본 아키텍처
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

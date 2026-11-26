@@ -1,8 +1,7 @@
 ---
 title: VM환경에서 버티카 3 node 구성
 description: 버티카 클러스터 구성을 위해 VM환경에서 3 node환경 설정
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - vertica cluster
   - 버티카 클러스터

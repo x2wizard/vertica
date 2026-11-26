@@ -1,7 +1,7 @@
 ---
 title: table과 projection object 계층 구조
 description: Vertica table과 projection object 계층 구조
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

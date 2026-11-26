@@ -1,8 +1,7 @@
 ---
 title: projection 생성 시점
 description: projection의 생성 시점에 대한 설명
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - projection
   - 프로젝션

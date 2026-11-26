@@ -1,8 +1,7 @@
 ---
 title: Tuple mover 동작 및 ROS Pushback
 description: Tuple mover의 moveout task 와 mergeout task 및 ROS Pushback에 대한 설명
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - tuple mover
   - moveout

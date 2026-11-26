@@ -14,7 +14,7 @@
 - 글: `src/content/docs/<카테고리>/<소문자 파일명>.md` → URL `/vertica/<카테고리>/<파일명>/`
   - 카테고리: vertica_architecture, vertica_use, vertica_etc
   - 각 카테고리의 `index.mdx` 는 직접 관리하는 목록 페이지 (migrate 가 건드리지 않음)
-- 이미지: `src/assets/posts/<카테고리>/` (Astro 최적화). 움직이는 gif 는 `public/images/<카테고리>/`
+- 이미지: `src/assets/posts/<카테고리>/` (Astro 최적화). 움직이는 gif 는 `public/images/<카테고리>/` 에 둔다
 - 홈: `src/content/docs/index.mdx`, 스타일: `src/styles/custom.css`
 - 블로그 기능은 플러그인 없이 직접 구현 (starlight-blog 를 쓰면 URL이 /blog/ 아래로 바뀜)
   - `src/lib/posts.ts` 글 목록·태그·카테고리 정의
@@ -22,6 +22,11 @@
   - `src/pages/tags/` 태그 페이지, `src/pages/feed.xml.ts` RSS
   - `src/plugins/rehype-external-links.mjs` 외부 링크 새 탭
 - `url-mapping.tsv`: 기존 URL → 새 URL 대응표
+
+## 이전 시 결정 사항
+- 모든 글의 작성일은 새 사이트 공개 기준일 2026-11-26 (migrate.mjs `PUBLISH_DATE`). 원래 글의 작성일·수정일은 쓰지 않는다.
+- 2025 IDC MarketScape 글(기존 vertica_etc/img/ 에 있던 것)은 옮기지 않는다.
+- Vertica_architecture_1040.20241119 는 백업 사본이라 draft.
 
 ## 글 front matter
 ```yaml

@@ -1,7 +1,7 @@
 ---
 title: Vertica 소개
 description: Vertica 기본 소개
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

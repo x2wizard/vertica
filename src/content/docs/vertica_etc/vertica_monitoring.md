@@ -1,7 +1,7 @@
 ---
 title: 버티카 모니터링을 위한 자원 수집 및 Grafana 활용
 description: 버티카 모니터링을 위한 자원 수집 및 Grafana 활용
-date: 2025-11-06
+date: 2026-11-26
 tags:
   - vertica grafana
   - vertica

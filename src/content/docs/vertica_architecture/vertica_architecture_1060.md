@@ -1,7 +1,7 @@
 ---
 title: 에포크(Epoch)
 description: 버티카에서는 에포크(Epoch)이라는 데이터의 논리적 타임 스탬프를 나타내는 64bit 숫자를 가지고 있다.
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

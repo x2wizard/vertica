@@ -1,8 +1,7 @@
 ---
 title: Bulk-Loading Data(COPY문)
 description: 대량 데이터 적재를 위한 COPY에 대한 설명
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - 대량 데이터 적재
   - COPY

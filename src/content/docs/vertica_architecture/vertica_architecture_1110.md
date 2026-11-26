@@ -1,7 +1,7 @@
 ---
 title: 리소스 관리
 description: 버티카의 리소스 관리.
-date: 2020-01-01
+date: 2026-11-26
 tags:
   - vertica
   - 버티카

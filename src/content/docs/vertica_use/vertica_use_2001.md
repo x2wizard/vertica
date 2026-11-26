@@ -1,8 +1,7 @@
 ---
 title: Text Search
 description: 텍스트를 빠르게 검색하는 기능
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - text search
   - text index

@@ -1,8 +1,7 @@
 ---
 title: 버티카 기동 및 중지
 description: 버티카 클러스터 기동 및 중지를 admintools 유틸을 이용한다.
-date: 2025-09-20
-lastUpdated: 2025-09-20
+date: 2026-11-26
 tags:
   - vertica start
   - 버티카 기동

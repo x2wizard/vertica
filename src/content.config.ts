@@ -12,6 +12,8 @@ export const collections = {
 				date: z.coerce.date().optional(),
 				/** 태그 */
 				tags: z.array(z.string()).default([]),
+				/** 홈 히어로 버튼 옆 안내 상자 (body 는 HTML) */
+				heroNotice: z.object({ title: z.string(), body: z.string() }).optional(),
 			}),
 		}),
 	}),

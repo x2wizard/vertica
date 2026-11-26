@@ -17,6 +17,10 @@ hero:
       link: /vertica/files/Introduction_Vertica_2024.pdf
       icon: document
       variant: minimal
+# 버튼 옆 안내 상자 (body 는 HTML)
+heroNotice:
+  title: 교육 안내
+  body: 교육 일정은 추후 공지하겠습니다. 버티카 교육 관련 문의는 <a href="mailto:dak@gtgsc.com">dak@gtgsc.com</a>으로 보내 주시기 바랍니다.
 ---
 import { Aside } from '@astrojs/starlight/components';
 import CategoryCards from '../../components/CategoryCards.astro';
@@ -25,20 +29,6 @@ import SiteBanners from '../../components/SiteBanners.astro';
 import { href } from '../../lib/posts';
 import coreTech from '../../assets/posts/vertica_architecture/vertica_architecture_1000_01.png';
 import { Image } from 'astro:assets';
-
-<Aside title="교육 안내">
-교육 일정은 추후 공지하겠습니다. 버티카 교육 관련 문의는 [dak@gtgsc.com](mailto:dak@gtgsc.com)으로 보내 주시기 바랍니다.
-</Aside>
-
-## 카테고리
-
-<CategoryCards />
-
-## 최근 글
-
-<PostList limit={6} />
-
-<p class="more-link"><a href={href('tags')}>태그로 글 찾기 →</a></p>
 
 ## Vertica 핵심 기술 요소
 
@@ -55,6 +45,16 @@ import { Image } from 'astro:assets';
     <dd>Projection이라는 최적화된 형식과 구조로 데이터를 저장하여 인덱스가 필요 없습니다.</dd>
   </dl>
 </div>
+
+## 카테고리
+
+<CategoryCards />
+
+## 최근 글
+
+<PostList limit={6} />
+
+<p class="more-link"><a href={href('tags')}>태그로 글 찾기 →</a></p>
 
 ## 관련 사이트
 

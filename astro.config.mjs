@@ -45,6 +45,7 @@ export default defineConfig({
 			],
 			components: {
 				MarkdownContent: './src/components/overrides/MarkdownContent.astro',
+				Hero: './src/components/overrides/Hero.astro',
 			},
 			sidebar: [
 				{ label: '홈', link: '/' },

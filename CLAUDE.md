@@ -16,6 +16,7 @@
   - 각 카테고리의 `index.mdx` 는 직접 관리하는 목록 페이지 (migrate 가 건드리지 않음)
 - 이미지: `src/assets/posts/<카테고리>/` (Astro 최적화). 움직이는 gif 는 `public/images/<카테고리>/` 에 둔다
 - 홈: `src/content/docs/index.mdx`, 스타일: `src/styles/custom.css`
+  - 히어로 버튼 옆 안내 상자는 index.mdx front matter `heroNotice` (title, body=HTML) → `src/components/overrides/Hero.astro`
 - 블로그 기능은 플러그인 없이 직접 구현 (starlight-blog 를 쓰면 URL이 /blog/ 아래로 바뀜)
   - `src/lib/posts.ts` 글 목록·태그·카테고리 정의
   - `src/components/overrides/MarkdownContent.astro` 글 하단 작성일·태그

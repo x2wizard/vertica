@@ -1,5 +1,5 @@
 ---
-title: 데이터 적재
+title: 데이터 적재(Vertica 9.3 이전)
 description: Vertica 데이터 적재
 date: 2026-11-26
 tags:

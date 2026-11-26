@@ -43,4 +43,4 @@ draft: true               # 선택, 빌드에서 제외
 ## 규칙
 - Astro 7 기본 Markdown 처리기는 Sätteri 이지만 Starlight 때문에 `@astrojs/markdown-remark` 의 `unified()` 를 쓴다.
 - 사이트 내부 링크는 `/vertica/...` 새 경로로 쓴다.
-- 배포: `.github/workflows/deploy.yml` (지금은 수동 실행만. 공개 시 push 트리거 주석 해제 + Settings → Pages → Source 를 GitHub Actions 로)
+- 배포: `.github/workflows/deploy.yml` — main 에 push 하면 자동 배포 (Actions 탭에서 수동 실행도 가능). Settings → Pages → Source 는 GitHub Actions

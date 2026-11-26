@@ -7,7 +7,7 @@ tags:
   - 버티카
   - epoch
   - 에포크
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 에포크(Epoch)

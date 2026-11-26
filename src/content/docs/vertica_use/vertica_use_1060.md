@@ -7,7 +7,7 @@ tags:
   - Tuple mover
   - mergeout
   - make_ahm_now
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## purge

@@ -7,7 +7,7 @@ tags:
   - 버티카
   - 실행계획
   - profiling
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Query Execution Workflow

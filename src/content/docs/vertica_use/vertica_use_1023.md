@@ -8,7 +8,7 @@ tags:
   - vsql
   - vsql 매타명령어
   - vsql meta-command
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## vsql를 통한 vertica 접속

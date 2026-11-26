@@ -7,7 +7,7 @@ tags:
   - 프로젝션
   - projection 생성
   - 프로젝션 생성
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## projection이 생성되는 시점

@@ -25,7 +25,7 @@ bold = ImageFont.truetype(str(FONT_DIR / 'Pretendard-Bold.otf'), 76)
 reg = ImageFont.truetype(str(FONT_DIR / 'Pretendard-Regular.otf'), 34)
 d.text((90, 250), 'GTG Vertica 블로그', font=bold, fill='#ffffff')
 d.text((90, 360), '대용량 데이터 분석을 위한 컬럼 기반 MPP 데이터베이스', font=reg, fill='#c4dcff')
-d.text((90, 410), 'OpenText Analytics Database(Vertica) 이야기', font=reg, fill='#c4dcff')
+d.text((90, 410), 'Vertica Analytics Database(Vertica) 이야기', font=reg, fill='#c4dcff')
 d.text((90, 530), 'x2wizard.github.io/vertica', font=reg, fill='#7fb0ff')
 
 img.save(ROOT / 'public/og-image.png', optimize=True)

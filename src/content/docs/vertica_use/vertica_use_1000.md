@@ -5,7 +5,7 @@ date: 2026-11-26
 tags:
   - vertica
   - 버티카
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 버티카 브랜드

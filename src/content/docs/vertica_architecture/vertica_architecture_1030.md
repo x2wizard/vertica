@@ -8,7 +8,7 @@ tags:
   - table
   - projection
   - 프로젝션
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Vertica table과 projection object 계층 구조

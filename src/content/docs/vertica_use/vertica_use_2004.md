@@ -6,7 +6,7 @@ tags:
   - vertica-python
   - python
   - 파이썬
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## vertica-python

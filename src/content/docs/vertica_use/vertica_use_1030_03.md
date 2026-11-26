@@ -8,7 +8,7 @@ tags:
   - projection order by
   - projection segmentation
   - projection unsegmentation
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 정렬(projection order by)

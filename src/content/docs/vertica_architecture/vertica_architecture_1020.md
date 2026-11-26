@@ -7,7 +7,7 @@ tags:
   - 버티카
   - projection
   - 프로젝션
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Projection(프로젝션) 소개  

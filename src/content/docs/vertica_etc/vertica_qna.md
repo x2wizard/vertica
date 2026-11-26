@@ -4,7 +4,7 @@ description: Vertica Q&A는 메일로 문의해 주세요
 date: 2026-11-26
 tags:
   - Vertica Q&A
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 버티카 Q&A

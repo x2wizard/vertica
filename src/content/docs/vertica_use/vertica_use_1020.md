@@ -7,7 +7,7 @@ tags:
   - 버티카 클러스터
   - vertica install
   - vertica 설치
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 버티카 3 node 구성

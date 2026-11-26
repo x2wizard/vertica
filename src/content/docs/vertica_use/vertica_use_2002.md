@@ -5,7 +5,7 @@ date: 2026-11-26
 tags:
   - export
   - vsql
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 버티카 데이터 Export

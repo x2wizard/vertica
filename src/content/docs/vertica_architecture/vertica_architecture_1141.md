@@ -7,7 +7,7 @@ tags:
   - 버티카
   - Eon mode
   - 이온 모드
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Eon mode 동작 방식

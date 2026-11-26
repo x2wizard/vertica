@@ -11,7 +11,7 @@ tags:
   - grafana
   - 그라파나
   - YJS
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Vertica 주요 모니터링

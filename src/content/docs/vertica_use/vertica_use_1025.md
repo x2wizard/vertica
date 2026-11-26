@@ -6,7 +6,7 @@ tags:
   - vertica DBMS tool
   - DBeaver
   - 디비버
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## DBeaver tool 설정

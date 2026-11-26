@@ -7,7 +7,7 @@ tags:
   - 버티카
   - 버티카 아키텍처
   - vertica architecture
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Vertica 기본 아키텍처

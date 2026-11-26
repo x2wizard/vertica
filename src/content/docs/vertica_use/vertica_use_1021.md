@@ -8,7 +8,7 @@ tags:
   - vertica stop
   - 버티카 중지
   - admintools
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 버티카 기동 및 중지

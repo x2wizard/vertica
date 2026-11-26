@@ -7,7 +7,7 @@ tags:
   - 버티카
   - Enterprise mode
   - 엔터프라이즈 모드
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Enterprise Mode Concepts

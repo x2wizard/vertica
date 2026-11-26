@@ -6,7 +6,7 @@ tags:
   - projection
   - 프로젝션
   - system table
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## projection관련 system table

@@ -9,7 +9,7 @@ tags:
   - role
   - grant
   - 권한부여
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 데이터베이스 사용자

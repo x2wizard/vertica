@@ -9,7 +9,7 @@ tags:
   - tuple mover
   - TM
   - mergeout
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Vertica Storage

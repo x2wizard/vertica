@@ -25,6 +25,7 @@
 
 ## 이전 시 결정 사항
 - 모든 글의 작성일은 새 사이트 공개 기준일 2026-11-26 (migrate.mjs `PUBLISH_DATE`). 원래 글의 작성일·수정일은 쓰지 않는다.
+- 태그·본문의 "OpenText Analytics Database(Vertica)" 는 "Vertica Analytics Database(Vertica)" 로 바꾼다 (migrate.mjs `TEXT_REPLACEMENTS`).
 - 2025 IDC MarketScape 글(기존 vertica_etc/img/ 에 있던 것)은 옮기지 않는다.
 - Vertica_architecture_1040.20241119 는 백업 사본이라 draft.
 

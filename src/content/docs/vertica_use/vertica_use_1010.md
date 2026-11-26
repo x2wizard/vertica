@@ -8,7 +8,7 @@ tags:
   - vsql
   - Management Console
   - MC
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 버티카 community edition 사용하기  

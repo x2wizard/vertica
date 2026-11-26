@@ -8,7 +8,7 @@ tags:
   - bulk load
   - 대량데이터 처리
   - DML DIRECT
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## DIRECT DML 처리

@@ -6,7 +6,7 @@ tags:
   - vertica
   - 버티카
   - table 접근 권한 상속
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 상속된 접근 권한

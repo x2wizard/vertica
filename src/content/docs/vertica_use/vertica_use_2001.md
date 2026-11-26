@@ -5,7 +5,7 @@ date: 2026-11-26
 tags:
   - text search
   - text index
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Text Search

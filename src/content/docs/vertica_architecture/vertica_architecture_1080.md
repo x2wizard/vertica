@@ -7,7 +7,7 @@ tags:
   - 버티카
   - delete vector
   - purge
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## 버티카에서 데이터 삭제 방법

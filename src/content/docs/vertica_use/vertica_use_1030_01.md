@@ -7,7 +7,7 @@ tags:
   - projection
   - projection과 table 관계
   - 프로젝션
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## projection과 table 관계

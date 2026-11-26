@@ -7,7 +7,7 @@ tags:
   - COPY
   - COPY LOCAL
   - COPY DIRECT
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## COPY 문

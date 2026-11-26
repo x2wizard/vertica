@@ -9,7 +9,7 @@ tags:
   - ROS Pushback
   - WOS
   - ROS
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## Tuple mover - moveout task / mergout task

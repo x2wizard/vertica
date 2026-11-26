@@ -8,7 +8,7 @@ tags:
   - projection 생성
   - projection 추가
   - projection 삭제
-  - OpenText Analytics Database(Vertica)
+  - Vertica Analytics Database(Vertica)
 ---
 
 ## table에 projection을 추가로 생성하는 절차

@@ -5,7 +5,7 @@
  * - Google Search Console → 속성 추가 → URL 접두어 https://x2wizard.github.io/vertica/ → HTML 태그
  * - 네이버 서치어드바이저 → 사이트 등록 → HTML 태그
  */
-export const GOOGLE_SITE_VERIFICATION = '';
+export const GOOGLE_SITE_VERIFICATION = 'NG5CuHExnVDEOquBKg94H7mEQxBHL8bLGYfPajZdsK4';
 export const NAVER_SITE_VERIFICATION = '';
 
 export const SITE_NAME = 'GTG Vertica 블로그';

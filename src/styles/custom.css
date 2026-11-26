@@ -241,6 +241,15 @@
 .hero {
 	padding-block: clamp(2rem, 6vw, 4rem);
 }
+/* 히어로 이미지가 없으므로 오른쪽 빈 칸을 없애고 소개 문구를 한 줄로 */
+@media (min-width: 50rem) {
+	.hero {
+		grid-template-columns: 1fr;
+	}
+	.hero .tagline {
+		max-width: none;
+	}
+}
 .hero h1 {
 	background: linear-gradient(90deg, var(--sl-color-white), var(--sl-color-accent));
 	-webkit-background-clip: text;

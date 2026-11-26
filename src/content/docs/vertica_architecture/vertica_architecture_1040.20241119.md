@@ -12,7 +12,6 @@ tags:
   - moveout
   - mergeout
   - Vertica Analytics Database(Vertica)
-draft: true
 ---
 
 ## Vertica Hybrid Storage

@@ -3,7 +3,7 @@ https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1000/	https
 https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1010/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1010/	Vertica 기본 아키텍처	published
 https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1020/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1020/	Projection 소개	published
 https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1030/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1030/	table과 projection object 계층 구조	published
-https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1040.20241119/		데이터 적재	draft(백업 사본, 비공개)
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1040.20241119/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_104020241119/	데이터 적재(Vertica 9.3 이전)	published
 https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1040/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1040/	데이터 적재	published
 https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1050/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1050/	Query Execution Workflow	published
 https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1060/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1060/	에포크(Epoch)	published

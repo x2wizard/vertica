@@ -1,0 +1,41 @@
+---
+import { CATEGORIES, categoryOf, formatDate, getPosts, postUrl, type CategoryId, type Post } from '../lib/posts';
+
+interface Props {
+	/** 카테고리를 주면 그 카테고리 글만 */
+	category?: CategoryId;
+	/** 직접 넘긴 글 목록 (태그 페이지 등) */
+	posts?: Post[];
+	/** 표시 개수 */
+	limit?: number;
+	/** 정렬: date(최신순, 기본) / order(연재 번호순) */
+	sort?: 'date' | 'order';
+	/** 카테고리 표시 여부 */
+	showCategory?: boolean;
+}
+
+const { category, limit, sort = 'date', showCategory = !category } = Astro.props;
+let posts = Astro.props.posts ?? (await getPosts(category));
+if (sort === 'order') posts = [...posts].sort((a, b) => a.id.localeCompare(b.id));
+if (limit) posts = posts.slice(0, limit);
+const catLabel = (p: Post) => CATEGORIES.find((c) => c.id === categoryOf(p))?.label;
+---
+
+<ul class="post-list not-content">
+	{
+		posts.map((post) => (
+			<li>
+				<a href={postUrl(post)}>
+					<span class="post-list-title">{post.data.title}</span>
+					{post.data.description && post.data.description !== post.data.title && (
+						<span class="post-list-desc">{post.data.description}</span>
+					)}
+					<span class="post-list-meta">
+						{showCategory && <span>{catLabel(post)}</span>}
+						{post.data.date && <time datetime={post.data.date.toISOString().slice(0, 10)}>{formatDate(post.data.date)}</time>}
+					</span>
+				</a>
+			</li>
+		))
+	}
+</ul>

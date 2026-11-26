@@ -1,0 +1,25 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import PostList from '../../components/PostList.astro';
+import { getTags, href } from '../../lib/posts';
+
+export async function getStaticPaths() {
+	const tags = await getTags();
+	return tags.map((t) => ({ params: { tag: t.slug }, props: { tag: t } }));
+}
+
+const { tag } = Astro.props;
+---
+
+<StarlightPage
+	frontmatter={{
+		title: `#${tag.label}`,
+		description: `'${tag.label}' 태그가 붙은 글 ${tag.posts.length}편`,
+		tableOfContents: false,
+		pagefind: false,
+	}}
+>
+	<p>'{tag.label}' 태그가 붙은 글 {tag.posts.length}편</p>
+	<PostList posts={tag.posts} showCategory />
+	<p class="more-link"><a href={href('tags')}>← 모든 태그</a></p>
+</StarlightPage>

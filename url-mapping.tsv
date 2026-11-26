@@ -1,0 +1,48 @@
+old_url	new_url	title	status
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1000/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1000/	Vertica 소개	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1010/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1010/	Vertica 기본 아키텍처	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1020/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1020/	Projection 소개	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1030/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1030/	table과 projection object 계층 구조	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1040.20241119/		데이터 적재	draft(백업 사본, 비공개)
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1040/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1040/	데이터 적재	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1050/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1050/	Query Execution Workflow	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1060/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1060/	에포크(Epoch)	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1070/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1070/	Partitioning Tables	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1080/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1080/	데이터 삭제	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1090/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1090/	데이터베이스 사용자 및 권한	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1100/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1100/	테이블 접근 권한	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1110/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1110/	리소스 관리	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1120/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1120/	backup 및 restore	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1130/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1130/	버티카 Enterprise mode	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1140/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1140/	버티카 Eon mode	published
+https://x2wizard.github.io/vertica_architecture/Vertica_architecture_1141/	https://x2wizard.github.io/vertica/vertica_architecture/vertica_architecture_1141/	버티카 Eon mode 그림으로 소개	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1000/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1000/	vertica.com 소개	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1010/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1010/	Vertica 접속하기	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1020/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1020/	VM환경에서 버티카 3 node 구성	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1021/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1021/	버티카 기동 및 중지	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1023/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1023/	버티카 접속 - vsql	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1025/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1025/	DBeaver 데이터베이스 관리 툴	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1030_01/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1030_01/	Projection과 table 관계	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1030_02/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1030_02/	projection 생성 시점	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1030_03/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1030_03/	projection의 정렬과 분산 저장	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1030_04/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1030_04/	신규 projection 추가 생성 절차	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1030_05/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1030_05/	projection관련 주요 system table	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1040/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1040/	Tuple mover 동작 및 ROS Pushback	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1050_10/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1050_10/	Bulk-Loading Data(DIRECT DML 처리)	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1050_20/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1050_20/	Bulk-Loading Data(COPY문)	published
+https://x2wizard.github.io/vertica_use/Vertica_use_1060/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_1060/	purge 작업	published
+https://x2wizard.github.io/vertica_use/Vertica_use_2001/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_2001/	Text Search	published
+https://x2wizard.github.io/vertica_use/Vertica_use_2002/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_2002/	vsql을 이용한 데이터 Export	published
+https://x2wizard.github.io/vertica_use/Vertica_use_2003/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_2003/	버티카 Database 통계 정보 수집	published
+https://x2wizard.github.io/vertica_use/Vertica_use_2004/	https://x2wizard.github.io/vertica/vertica_use/vertica_use_2004/	vertica-python 소개	published
+https://x2wizard.github.io/vertica_etc/markdown_template/	https://x2wizard.github.io/vertica/vertica_etc/markdown_template/	markdown 표기 샘플	published
+https://x2wizard.github.io/vertica_etc/vertica_QnA/	https://x2wizard.github.io/vertica/vertica_etc/vertica_qna/	Vertica Q&A	published
+https://x2wizard.github.io/vertica_etc/regular_expression/	https://x2wizard.github.io/vertica/vertica_etc/regular_expression/	정규 표현식	published
+https://x2wizard.github.io/vertica_etc/Vertica_monitoring/	https://x2wizard.github.io/vertica/vertica_etc/vertica_monitoring/	버티카 모니터링을 위한 자원 수집 및 Grafana 활용	published
+https://x2wizard.github.io/vertica_etc/Vertica_IDC_MarketScape_2025/	https://x2wizard.github.io/vertica/vertica_etc/vertica_idc_marketscape_2025/	2025 IDC MarketScape Vertica	published(기존 _posts 밖에 있던 글)
+https://x2wizard.github.io/vertica_architecture/	https://x2wizard.github.io/vertica/vertica_architecture/	vertica_architecture 목록	category
+https://x2wizard.github.io/vertica_use/	https://x2wizard.github.io/vertica/vertica_use/	vertica_use 목록	category
+https://x2wizard.github.io/vertica_etc/	https://x2wizard.github.io/vertica/vertica_etc/	vertica_etc 목록	category
+https://x2wizard.github.io/category/vertica_use	https://x2wizard.github.io/vertica/vertica_use/	vertica_use 목록(메뉴 링크)	category
+https://x2wizard.github.io/category/vertica_etc	https://x2wizard.github.io/vertica/vertica_etc/	vertica_etc 목록(메뉴 링크)	category
+https://x2wizard.github.io/	https://x2wizard.github.io/vertica/	홈	home

@@ -1,0 +1,60 @@
+---
+title: GTG Vertica 블로그
+description: 버티카(OpenText Analytics Database)에 대한 다양한 정보 공유
+template: splash
+pagefind: false
+prev: false
+next: false
+hero:
+  title: GTG Vertica 블로그
+  tagline: 대용량 데이터 분석을 위한 Pure-MPP 구성, ANSI SQL99+를 지원하는 컬럼 기반 RDBMS<br/>OpenText Analytics Database(Vertica) 이야기를 나눕니다.
+  actions:
+    - text: Vertica 소개부터 읽기
+      link: /vertica/vertica_architecture/vertica_architecture_1000/
+      icon: right-arrow
+    - text: 소개 자료(PDF)
+      link: /vertica/files/Introduction_Vertica_2024.pdf
+      icon: document
+      variant: minimal
+---
+import { Aside } from '@astrojs/starlight/components';
+import CategoryCards from '../../components/CategoryCards.astro';
+import PostList from '../../components/PostList.astro';
+import SiteBanners from '../../components/SiteBanners.astro';
+import { href } from '../../lib/posts';
+import coreTech from '../../assets/posts/vertica_architecture/vertica_architecture_1000_01.png';
+import { Image } from 'astro:assets';
+
+<Aside title="교육 안내">
+교육 일정은 추후 공지하겠습니다. 버티카 교육 관련 문의는 [dak@gtgsc.com](mailto:dak@gtgsc.com)으로 보내 주시기 바랍니다.
+</Aside>
+
+## 카테고리
+
+<CategoryCards />
+
+## 최근 글
+
+<PostList limit={6} />
+
+<p class="more-link"><a href={href('tags')}>태그로 글 찾기 →</a></p>
+
+## Vertica 핵심 기술 요소
+
+<div class="core-tech">
+  <Image src={coreTech} alt="Vertica 데이터베이스 엔진 4대 기술 요소" />
+  <dl>
+    <dt>Massively Parallel Processing (MPP)</dt>
+    <dd>별도의 마스터 노드 없이 모든 노드에서 병렬로 쿼리를 실행합니다. 선형적으로 scale-out하여 더 빠른 성능 또는 더 많은 사용자를 지원합니다.</dd>
+    <dt>Columnar Storage</dt>
+    <dd>필요한 데이터만 읽어 기존 ROW 기반 스토리지 시스템에 비해 쿼리 속도가 빠릅니다.</dd>
+    <dt>Advanced Compression</dt>
+    <dd>컬럼별 고급 압축 알고리즘과 인코딩으로 저장 공간을 최대 90%까지 줄이고, 쿼리 수행 시 디스크 I/O 비용이 줄어 성능이 향상됩니다.</dd>
+    <dt>Optimized Projections</dt>
+    <dd>Projection이라는 최적화된 형식과 구조로 데이터를 저장하여 인덱스가 필요 없습니다.</dd>
+  </dl>
+</div>
+
+## 관련 사이트
+
+<SiteBanners />

@@ -1,0 +1,33 @@
+---
+// 글 본문 아래에 작성일과 태그를 붙인다. (카테고리 목록·홈·태그 페이지에는 표시하지 않음)
+import Default from '@astrojs/starlight/components/MarkdownContent.astro';
+import { CATEGORIES, formatDate, tagUrl } from '../../lib/posts';
+
+const { entry } = Astro.locals.starlightRoute;
+const parts = entry.id.split('/');
+const isPost = parts.length === 2 && CATEGORIES.some((c) => c.id === parts[0]);
+const { date, tags } = entry.data as { date?: Date; tags?: string[] };
+---
+
+<Default><slot /></Default>
+
+{
+	isPost && (date || tags?.length) ? (
+		<aside class="post-meta not-content" aria-label="글 정보">
+			{date && (
+				<p class="post-date">
+					작성일 <time datetime={date.toISOString().slice(0, 10)}>{formatDate(date)}</time>
+				</p>
+			)}
+			{tags && tags.length > 0 && (
+				<ul class="tag-list">
+					{tags.map((t) => (
+						<li>
+							<a href={tagUrl(t)}>#{t}</a>
+						</li>
+					))}
+				</ul>
+			)}
+		</aside>
+	) : null
+}

@@ -1,0 +1,254 @@
+/* ============================================================
+   GTG Vertica 블로그 — Starlight 테마 조정
+   ============================================================ */
+
+/* ---- 색상: Vertica 블루 강조색 ---------------------------- */
+:root {
+	--sl-font: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo',
+		'Noto Sans KR', 'Malgun Gothic', sans-serif;
+
+	/* 다크(기본) */
+	--sl-color-accent-low: #0b2347;
+	--sl-color-accent: #3d8bff;
+	--sl-color-accent-high: #c4dcff;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #d9e8ff;
+	--sl-color-accent: #0b5cd5;
+	--sl-color-accent-high: #0a3a85;
+}
+
+/* 한글 본문 가독성 */
+.sl-markdown-content {
+	line-height: 1.8;
+	word-break: keep-all;
+	overflow-wrap: anywhere;
+}
+.sl-markdown-content :is(h2, h3, h4) {
+	word-break: keep-all;
+}
+
+/* 본문 이미지: 화면 폭에 맞추고 다크 모드에서 흰 배경 그림이 튀지 않게 테두리 */
+.sl-markdown-content img {
+	border-radius: 0.375rem;
+	height: auto;
+}
+:root:not([data-theme='light']) .sl-markdown-content img {
+	box-shadow: 0 0 0 1px var(--sl-color-gray-5);
+}
+
+/* 넓은 표는 가로 스크롤 */
+.sl-markdown-content table {
+	display: block;
+	overflow-x: auto;
+}
+
+/* 사이트 로고 크기 */
+.site-title img {
+	height: 1.5rem;
+	width: auto;
+}
+
+/* ---- 글 하단: 작성일·태그 ---------------------------------- */
+.post-meta {
+	margin-top: 3rem;
+	padding-top: 1.25rem;
+	border-top: 1px solid var(--sl-color-hairline);
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	font-size: var(--sl-text-sm);
+	color: var(--sl-color-gray-3);
+}
+.post-meta p {
+	margin: 0;
+}
+
+.tag-list,
+.tag-cloud {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+.tag-list a,
+.tag-cloud a {
+	display: inline-block;
+	padding: 0.2rem 0.65rem;
+	border-radius: 999px;
+	background: var(--sl-color-accent-low);
+	color: var(--sl-color-accent-high);
+	text-decoration: none;
+	font-size: var(--sl-text-sm);
+}
+.tag-list a:hover,
+.tag-cloud a:hover {
+	background: var(--sl-color-accent);
+	color: var(--sl-color-black);
+}
+:root[data-theme='light'] .tag-list a:hover,
+:root[data-theme='light'] .tag-cloud a:hover {
+	color: #fff;
+}
+.tag-count {
+	opacity: 0.7;
+	font-size: 0.85em;
+	margin-inline-start: 0.15rem;
+}
+.tag-cloud {
+	margin-top: 1rem;
+}
+
+/* ---- 글 목록 ------------------------------------------------ */
+.post-list {
+	list-style: none;
+	padding: 0;
+	margin: 1rem 0 0;
+	display: grid;
+	gap: 0.5rem;
+}
+.post-list a {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+	padding: 0.85rem 1rem;
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: 0.5rem;
+	text-decoration: none;
+	color: var(--sl-color-white);
+	transition: border-color 0.15s, background-color 0.15s;
+}
+.post-list a:hover {
+	border-color: var(--sl-color-accent);
+	background: var(--sl-color-gray-6);
+}
+.post-list-title {
+	font-weight: 600;
+	font-size: var(--sl-text-base);
+}
+.post-list-desc {
+	color: var(--sl-color-gray-2);
+	font-size: var(--sl-text-sm);
+}
+.post-list-meta {
+	display: flex;
+	gap: 0.75rem;
+	color: var(--sl-color-gray-3);
+	font-size: var(--sl-text-xs);
+}
+
+.more-link {
+	margin-top: 1rem;
+	text-align: end;
+}
+
+/* ---- 홈 ----------------------------------------------------- */
+.category-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	gap: 1rem;
+	margin-top: 1rem;
+}
+.category-card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	padding: 1.25rem;
+	border: 1px solid var(--sl-color-hairline);
+	border-top: 3px solid var(--sl-color-accent);
+	border-radius: 0.5rem;
+	background: var(--sl-color-gray-6);
+	text-decoration: none;
+	color: var(--sl-color-white);
+	transition: transform 0.15s, border-color 0.15s;
+}
+.category-card:hover {
+	transform: translateY(-2px);
+	border-color: var(--sl-color-accent);
+}
+.category-card-title {
+	font-size: var(--sl-text-h4);
+	font-weight: 700;
+}
+.category-card-desc {
+	color: var(--sl-color-gray-2);
+	font-size: var(--sl-text-sm);
+	flex: 1;
+}
+.category-card-count {
+	color: var(--sl-color-accent-high);
+	font-size: var(--sl-text-sm);
+	font-weight: 600;
+}
+
+.core-tech {
+	display: grid;
+	gap: 1.5rem;
+	align-items: center;
+}
+@media (min-width: 50rem) {
+	.core-tech {
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	}
+}
+.core-tech img {
+	width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+	background: #fff;
+}
+.core-tech dl {
+	margin: 0;
+}
+.core-tech dt {
+	font-weight: 700;
+	color: var(--sl-color-white);
+}
+.core-tech dd {
+	margin: 0.15rem 0 0.9rem;
+	color: var(--sl-color-gray-2);
+	font-size: var(--sl-text-sm);
+}
+
+/* 관련 사이트 배너: 원본이 흰 배경 이미지라 밝은 칩 위에 올린다 */
+.site-banners {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+.site-banners a {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.6rem 1rem;
+	background: #fff;
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: 0.5rem;
+}
+.site-banners a:hover {
+	border-color: var(--sl-color-accent);
+}
+.site-banners img {
+	height: 2.5rem;
+	width: auto;
+	display: block;
+}
+
+/* 히어로 */
+.hero {
+	padding-block: clamp(2rem, 6vw, 4rem);
+}
+.hero h1 {
+	background: linear-gradient(90deg, var(--sl-color-white), var(--sl-color-accent));
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+/* 테마 선택 상자: 한국어 라벨("어두운 테마")이 잘리지 않게 */
+starlight-theme-select label {
+	--sl-select-width: 8.5em !important;
+}

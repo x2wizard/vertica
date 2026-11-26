@@ -1,0 +1,19 @@
+---
+import { CATEGORIES, getPosts, href } from '../lib/posts';
+
+const cards = await Promise.all(
+	CATEGORIES.map(async (c) => ({ ...c, count: (await getPosts(c.id)).length }))
+);
+---
+
+<div class="category-cards not-content">
+	{
+		cards.map((c) => (
+			<a class="category-card" href={href(c.id)}>
+				<span class="category-card-title">{c.label}</span>
+				<span class="category-card-desc">{c.description}</span>
+				<span class="category-card-count">글 {c.count}편 →</span>
+			</a>
+		))
+	}
+</div>

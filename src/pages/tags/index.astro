@@ -1,0 +1,23 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { getTags, tagUrl } from '../../lib/posts';
+
+const tags = await getTags();
+---
+
+<StarlightPage
+	frontmatter={{ title: '태그', description: '태그별로 글을 찾아봅니다.', tableOfContents: false, pagefind: false }}
+>
+	<p>태그 {tags.length}개. 글이 많은 태그부터 보여 줍니다.</p>
+	<ul class="tag-cloud not-content">
+		{
+			tags.map((t) => (
+				<li>
+					<a href={tagUrl(t.label)}>
+						#{t.label} <span class="tag-count">{t.posts.length}</span>
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</StarlightPage>

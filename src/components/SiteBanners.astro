@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets';
+import vertica from '../assets/brand/banner_vertica.png';
+import gtg from '../assets/brand/banner_gtg.jpg';
+
+const sites = [
+	{ href: 'https://www.vertica.com', img: vertica, alt: 'Vertica 공식 사이트', label: 'Vertica 공식 사이트' },
+	{ href: 'http://www.gtgsc.com', img: gtg, alt: 'GTG', label: 'GTG' },
+];
+---
+
+<div class="site-banners not-content">
+	{
+		sites.map((s) => (
+			<a href={s.href} target="_blank" rel="noopener noreferrer" title={s.label}>
+				<Image src={s.img} alt={s.alt} height={40} />
+			</a>
+		))
+	}
+</div>

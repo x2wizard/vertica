@@ -7,6 +7,17 @@ import rehypeExternalLinks from './src/plugins/rehype-external-links.mjs';
 const SITE = 'https://x2wizard.github.io';
 const BASE = '/vertica';
 
+/** 빌드 후 sitemap-0.xml 을 sitemap.xml 로도 복사한다 (색인 파일이 아닌 전체 URL 목록을 바로 제출할 수 있게) */
+const plainSitemap = {
+	name: 'plain-sitemap',
+	hooks: {
+		'astro:build:done': async ({ dir }) => {
+			const { copyFile } = await import('node:fs/promises');
+			await copyFile(new URL('sitemap-0.xml', dir), new URL('sitemap.xml', dir));
+		},
+	},
+};
+
 export default defineConfig({
 	site: SITE,
 	base: BASE,
@@ -59,5 +70,6 @@ export default defineConfig({
 			lastUpdated: false,
 			pagination: true,
 		}),
+		plainSitemap,
 	],
 });
